@@ -8,15 +8,15 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "LCSliderView"
-  s.version      = "0.0.5"
+  s.name         = "MBProgressHUD"
+  s.version      = "0.0.1"
   s.summary      = "choose the price on that block for ios."
-  s.homepage     = "https://github.com/shaoyanglichao01/SliderView.git"
+  s.homepage     = "https://github.com/shaoyanglichao01/MBProgressHUD.git"
   s.license      = "MIT"
   s.author             = { "lichao" => "shaoyanglichao@126.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/shaoyanglichao01/SliderView.git", :tag => "0.0.5" }
-  s.source_files  = "LCSliderView", "LCSliderView/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/shaoyanglichao01/MBProgressHUD.git", :tag => "0.0.1" }
+  s.source_files  = "MBProgressHUD", "MBProgressHUD/**/*.{h,m}"
    s.framework  = "UIKit"
-  s.resources = "LCSliderView/sliderView.bundle"
+  s.resources = "MBProgressHUD/MBProgressHUD.bundle"
 end
